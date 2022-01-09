@@ -24,7 +24,7 @@ if (!fs.existsSync(imgpath)) {
     fs.mkdir(imgpath, () => {});
 }
 
-cron.schedule('57 12 * * *', () => {
+cron.schedule('00 14 * * *', () => {
     getADOP();
 });
 
